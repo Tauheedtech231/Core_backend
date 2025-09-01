@@ -56,7 +56,7 @@ export const sendAdminNotification = async (newUserName, newUserEmail) => {
   try {
     const mailOptions = {
       from: process.env.EMAIL_USER,
-      to: 'tauheeddeveloper13@gmail.com',
+      to: 'mansol.largify@gmail.com',
       subject: 'New User Registration - MANSOL LMS ',
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #e0e0e0; border-radius: 5px;">
